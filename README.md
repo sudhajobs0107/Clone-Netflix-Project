@@ -16,7 +16,7 @@ ___
 ### Before starting the project you should have these things in your system :-
 >+ ### Account on AWS
 >+ ### Git
->+ ### Code (we will use code from this repository : [](https://github.com/sudhajobs0107/Netflix)
+>+ ### Code (we will use code from this repository : [link with code](https://github.com/sudhajobs0107/Netflix)
 ___
 
 # **Part 1** : **Initial Setup and Deployment**
