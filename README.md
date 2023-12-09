@@ -16,9 +16,8 @@ ___
 ### Before starting the project you should have these things in your system :-
 >+ ### Account on AWS
 >+ ### Git
->+ ### Code (we will use code from this repository : [link with code](https://github.com/sudhajobs0107/Netflix)
+>+ ### Code (we will use code from this repository) : [link with code](https://github.com/sudhajobs0107/Netflix)
 ___
-
 # **Part 1** : **Initial Setup and Deployment**
 ## STEP 1: Launch Instance
 + ### Create AWS EC2 instance (t2.large)
@@ -59,7 +58,6 @@ docker version
 docker build -t netflix .
 ```
 ![](https://github.com/sudhajobs0107/Netflix/blob/main/public/assets/16%20steps.PNG)
-___
 
 ## STEP 4: API Key
 + ### Go to TMDB (The Movie Database) website.
@@ -136,9 +134,9 @@ trivy fs .
 ### ( **.** refers current one)
 ![](https://github.com/sudhajobs0107/Netflix/blob/main/public/assets/trivy.PNG)
 
+
+
 ___
-
-
 # **Part 3** : **CI/CD Setup**
 + ### While installing Jenkins, we also need to have Java installed so for Java use command :-
 ```
@@ -331,6 +329,7 @@ sudo systemctl restart jenkins
 # Build Now and our pipeline build successfully.
 ![](https://github.com/sudhajobs0107/Netflix/blob/main/public/assets/success-pipeline.PNG)
 
+___
 # **Part 4** : **Monitoring**
 ### For monitoring we need t2.medium instance → Launch Instance  → Connect to instance, now to install and configure **Prometheus** use command as given below :-
 ```
@@ -491,6 +490,7 @@ curl -X POST http://localhost:9090/-/reload
 ![](https://github.com/sudhajobs0107/Netflix/blob/main/public/assets/target.PNG)
 ![](https://github.com/sudhajobs0107/Netflix/blob/main/public/assets/metrics.PNG)
 
+___
 # **Part 5** : Install **Grafana** and set it up to **Work with Prometheus**
 ## STEP 1: Install Dependencies, use command :-
 ```
